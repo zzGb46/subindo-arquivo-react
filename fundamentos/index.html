@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <style>
+      body{
+        background-color: white;
+      }
+      h1{
+        color: white;
+      }
+      h2{
+        color:white;
+        animation: foi 1s infinite;
+        box-shadow: 10px;
+      }
+      @keyframes foi{
+        0%{
+          transform: rotate(0deg);
+        }
+       25%{
+        transform: rotate(360deg);
+          transform: translate(50px);
+       }
+        50%{
+         
+        }
+        100%{
+          transform: rotate(-360deg);
+          transform: translate(-50px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <h1>oi</h1>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
